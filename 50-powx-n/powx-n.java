@@ -10,10 +10,10 @@ class Solution {
 
         while (power > 0){
             if (power % 2 == 1){
-                result = result * x;
+                result *= x;
             }
-            x = x * x;
-            power = power/ 2;
+            x *= x;
+            power /= 2;
         }
         return result; 
     }
