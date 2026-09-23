@@ -3,7 +3,7 @@ class Solution {
         int count=0;
         while (n>0){
             n=n/5;
-            count+=n;
+            count +=n;
         }
         return count;
     }
