@@ -3,8 +3,8 @@ class Solution {
         int n=nums.length;
         int sum=n*(n+1)/2;
         int arraySum=0;
-        for (int i=0; i<nums.length; i++){
-            arraySum += nums[i];
+        for (int ele: nums){
+            arraySum += ele;
         }
         return (int)(sum-arraySum);
     }
