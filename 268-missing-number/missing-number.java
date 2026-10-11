@@ -4,8 +4,8 @@ class Solution {
         int sum=n*(n+1)/2;
         int arraySum=0;
         for (int ele: nums){
-            arraySum += ele;
+            arraySum+=ele;
         }
-        return (int)(sum-arraySum);
+        return sum-arraySum;
     }
 }
